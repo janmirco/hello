@@ -6,7 +6,7 @@ This project is for testing [uv](https://docs.astral.sh/uv/) as a Python package
 
 ### Directly via GitHub
 
-Go to your `uv` project and install `hello`:
+Go to your `uv` project and install `hello`.
 
 ```bash
 uv add git+https://github.com/janmirco/hello.git
@@ -14,13 +14,13 @@ uv add git+https://github.com/janmirco/hello.git
 
 ### Locally in editable mode
 
-1. Clone repository:
+1. Clone repository.
 
 ```bash
 git clone https://github.com/janmirco/hello.git
 ```
 
-2. Go to your `uv` project and install `hello` in editable mode:
+2. Go to your `uv` project and install `hello` in editable mode.
 
 ```bash
 uv add --editable <PATH_TO_HELLO_REPO>
@@ -28,7 +28,7 @@ uv add --editable <PATH_TO_HELLO_REPO>
 
 ## Usage
 
-After installation, you can use `hello` in your Python scripts:
+After installation, you can use `hello` in your Python scripts.
 
 ```python
 import hello as h
