@@ -35,13 +35,12 @@ uv add --editable <PATH_TO_HELLO_REPO>
 
 ### Language server configuration
 
-In case you use [Pyright](https://github.com/microsoft/pyright) as your language server for Python, make sure to add your `uv` virtual environment to `pyrightconfig.json` in the root of your project.
+In case you use [Pyright](https://github.com/microsoft/pyright) as your language server for Python, make sure to add your `uv` virtual environment to `pyproject.toml`.
 
-```json
-{
-    "venvPath": ".",
-    "venv": ".venv"
-}
+```toml
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
 ```
 
 ## Usage
