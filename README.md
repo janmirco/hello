@@ -12,6 +12,13 @@ Go to your `uv` project and install `hello`.
 uv add git+https://github.com/janmirco/hello.git
 ```
 
+For future updates, simply run the following code block.
+
+```bash
+uv lock --upgrade
+uv sync
+```
+
 ### Locally in editable mode
 
 1. Clone repository.
