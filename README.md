@@ -33,5 +33,6 @@ After installation, you can use `hello` in your Python scripts:
 ```python
 import hello as h
 h.say.hi()
+h.say.whats_up()
 h.say.bye()
 ```
