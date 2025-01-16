@@ -2,7 +2,17 @@
 
 This project is for testing [uv](https://docs.astral.sh/uv/) as a Python package and project manager.
 
-## Local installation
+## Installation
+
+### Directly via GitHub
+
+Go to your `uv` project and install `hello`:
+
+```bash
+uv add git+https://github.com/janmirco/hello.git
+```
+
+### Locally in editable mode
 
 1. Clone repository:
 
