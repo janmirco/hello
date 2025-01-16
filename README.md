@@ -33,6 +33,17 @@ git clone https://github.com/janmirco/hello.git
 uv add --editable <PATH_TO_HELLO_REPO>
 ```
 
+### Language server configuration
+
+In case you use [Pyright](https://github.com/microsoft/pyright) as your language server for Python, make sure to add your `uv` virtual environment to `pyrightconfig.json` in the root of your project.
+
+```json
+{
+    "venvPath": ".",
+    "venv": ".venv"
+}
+```
+
 ## Usage
 
 After installation, you can use `hello` in your Python scripts.
