@@ -7,7 +7,6 @@ authors = [
     { name = "Jan Mirco Pfeifer", email = "126580858+janmirco@users.noreply.github.com" }
 ]
 license = "MIT"
-license-files = ["LICEN[CS]E.*"]
 requires-python = ">=3.12"
 dependencies = []
 
